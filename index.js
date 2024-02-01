@@ -27,6 +27,8 @@ app.post("/addEntry", (req, res) => {
   const entryObj = req.body;
   const newEntry = {
     id: uuidv4(),
+    title: entryObj.title,
+    rating: entryObj.rating,
     date: entryObj.date,
     entry: entryObj.entry,
   };
@@ -37,9 +39,22 @@ app.post("/addEntry", (req, res) => {
   res.status(201).json(newEntry);
 });
 //Delete Entry
-app.delete("/deleteEntry", (req, res) => {
+app.delete("/:deleteEntryId", (req, res) => {
   console.log(req.body);
   const entryData = readEntries();
+  const id = req.params.deleteEntryId;
+
+  const filteredEntries = entryData.filter((entry) => {
+    return entry.id != id;
+  });
+  fs.writeFileSync(FILE_PATH, JSON.stringify(filteredEntries));
+
+  res.status(200).json({
+    message: "deleted",
+  });
+
+  console.log(filteredEntries);
+  console.log(id);
 });
 app.listen(PORT, () => {
   console.log(`Server started on http://localhost:${PORT}`);

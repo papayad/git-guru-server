@@ -1,9 +1,1 @@
-[
-  { "id": "1", "date": "2021/12/12", "entry": "Dear diary, It was a good Day." },
-  {
-    "id": "96e150f4-04e1-4506-94c4-d23b18326a3f",
-    "date": "2021/12/13",
-    "entry": "Dear diary, It was a good Day."
-  },
-  { "id": "623ca4b1-a519-4815-9f86-4c83e74c2be9", "date": "2022/01/12", "entry": "Great" }
-]
+[{"id":"73f807bf-6140-4f78-b436-cee0c97633a9","title":"Shopping","rating":"3","date":"2024/01/23","entry":"Pricey"},{"id":"3d3db2c6-3a86-4258-a329-e825f191719e","title":"Nap Time","rating":"5","date":"2024-02-01","entry":"Great!"}]
