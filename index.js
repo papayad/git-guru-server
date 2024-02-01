@@ -5,7 +5,9 @@ const router = express.Router();
 const fs = require("fs");
 const FILE_PATH = "./data/entries.json";
 const { v4: uuidv4 } = require("uuid");
+const cors = require("cors");
 
+app.use(cors());
 app.use(express.json());
 
 // function to read our local entries.json file

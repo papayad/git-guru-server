@@ -1,6 +1,1 @@
-[
-  { "id": "1", "date": "21/12/2012", "entry": "Dear diary, It was a good Day." },
-  { "id": "96e150f4-04e1-4506-94c4-d23b18326a3f", "date": "21/12/2012", "entry": "Dear diary, It was a good Day." },
-  { "id": "970d18b0-6f86-4ff1-a66e-f9be498f85d2", "date": "21/12/2012", "entry": "Dear diary, It was a good Day." },
-  { "id": "8d6cb989-9790-4ff6-bdc6-0464079dae82", "date": "21/12/2012", "entry": "Dear diary, It was a good Day." }
-]
+[{"id":"1","date":"21/12/2012","entry":"Dear diary, It was a good Day."},{"id":"96e150f4-04e1-4506-94c4-d23b18326a3f","date":"21/12/2012","entry":"Dear diary, It was a good Day."},{"id":"970d18b0-6f86-4ff1-a66e-f9be498f85d2","date":"21/12/2012","entry":"Dear diary, It was a good Day."},{"id":"8d6cb989-9790-4ff6-bdc6-0464079dae82","date":"21/12/2012","entry":"Dear diary, It was a good Day."},{"id":"61c6168f-f232-4af6-a581-9f7436d50a2d"}]
