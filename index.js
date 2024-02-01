@@ -19,7 +19,7 @@ app.get("/getEntry", (req, res) => {
   const entryData = readEntries();
   res.status(200).json(entryData);
 });
-//POST a note
+
 app.post("/addEntry", (req, res) => {
   console.log(req.body);
   const entryObj = req.body;
@@ -29,14 +29,16 @@ app.post("/addEntry", (req, res) => {
     entry: entryObj.entry,
   };
   console.log(newEntry);
-
   const entryData = readEntries();
   entryData.push(newEntry);
   fs.writeFileSync(FILE_PATH, JSON.stringify(entryData));
-
   res.status(201).json(newEntry);
 });
-
+//Delete Entry
+app.delete("/deleteEntry", (req, res) => {
+  console.log(req.body);
+  const entryData = readEntries();
+});
 app.listen(PORT, () => {
   console.log(`Server started on http://localhost:${PORT}`);
 });
