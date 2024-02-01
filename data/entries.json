@@ -1,1 +1,9 @@
-[{"id":"1","date":"21/12/2012","entry":"Dear diary, It was a good Day."},{"id":"96e150f4-04e1-4506-94c4-d23b18326a3f","date":"21/12/2012","entry":"Dear diary, It was a good Day."},{"id":"970d18b0-6f86-4ff1-a66e-f9be498f85d2","date":"21/12/2012","entry":"Dear diary, It was a good Day."},{"id":"8d6cb989-9790-4ff6-bdc6-0464079dae82","date":"21/12/2012","entry":"Dear diary, It was a good Day."},{"id":"61c6168f-f232-4af6-a581-9f7436d50a2d"},{"id":"e7084ec4-7d02-4965-a325-a46b0d11d158","date":"2022/12/14","entry":"yipee"},{"id":"07ff92d0-6960-469e-bbee-822f0fd053f3","date":"2023/12/14","entry":"good"}]
+[
+  { "id": "1", "date": "2021/12/12", "entry": "Dear diary, It was a good Day." },
+  {
+    "id": "96e150f4-04e1-4506-94c4-d23b18326a3f",
+    "date": "2021/12/13",
+    "entry": "Dear diary, It was a good Day."
+  },
+  { "id": "623ca4b1-a519-4815-9f86-4c83e74c2be9", "date": "2022/01/12", "entry": "Great" }
+]
